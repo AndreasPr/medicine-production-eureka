@@ -10,6 +10,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @Configuration
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
+    //Basic Auth
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.csrf().disable()
